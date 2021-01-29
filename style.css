@@ -1,0 +1,124 @@
+body {
+  font-family: "Staatliches", cursive;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  font-size: 50px;
+  margin: 0px;
+  margin-bottom: 4px;
+}
+
+#container {
+  position: absolute;
+  margin: 0px 0px 20px 22%;
+  height: 330px;
+  padding: 35px 20px 10px 20px;
+  width: 350px;
+  border-radius: 20px;
+}
+
+#neck {
+  height: 80px;
+  width: 80px;
+  background: white;
+  border-radius: 100px;
+  margin-left: 138px;
+  margin-top: -330px;
+}
+.shirt {
+  positon: absolute;
+  width: 100px;
+  height: 80px;
+  background: black;
+}
+
+.sleever {
+  transform: rotate(40deg);
+  margin-left: 233px;
+  margin-top: 50px;
+}
+
+.sleevel {
+  transform: rotate(-40deg);
+  margin-top: -79px;
+  margin-left: 18px;
+}
+
+.torso {
+  width: 190px;
+  height: 270px;
+  margin-left: 80px;
+  margin-top: -103px;
+}
+
+#myColor {
+  position: absolute;
+  margin-left: 55%;
+  margin-top: 100px;
+  margin-bottom: 250px;
+}
+
+#myimg {
+  position: absolute;
+  margin-left: 55%;
+  margin-top: 180px;
+}
+
+button {
+  color: white;
+  background: black;
+  border: none;
+  border-radius: 50px;
+  padding: 15.5px 7px 15.5px 7px;
+  cursor: pointer;
+  font-family: "Staatliches", cursive;
+  letter-spacing: 1px;
+}
+
+#button1 {
+  position: absolute;
+  margin-left: 70%;
+  margin-top: 97px;
+  margin-bottom: 250px;
+}
+
+#button2 {
+  position: absolute;
+  margin-left: 70%;
+  margin-top: 175px;
+  margin-bottom: 180px;
+}
+
+#info1 {
+  position: absolute;
+  margin-left: 55%;
+  margin-top: 67px;
+}
+
+#info2 {
+  position: absolute;
+  margin-left: 55%;
+  margin-top: 150px;
+}
+
+#currentcolor {
+  position: absolute;
+  margin-left: 55%;
+  margin-top: 250px;
+  font-size: 20px;
+}
+
+img {
+  position: absolute;
+  z-index: 2;
+  width: 130px;
+  margin-left: 32.4%;
+  margin-top: 120px;
+}
+
+input {
+  border-radius: 20px;
+  padding: 10px;
+}
